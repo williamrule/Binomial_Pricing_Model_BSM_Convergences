@@ -18,9 +18,9 @@ The binomial model assumes that the stock price has only two possible states at 
 For small values of N, the binomial model produced a rough approximation of the Black–Scholes price. As N increased, the binomial prices oscillated around the Black–Scholes value but overall converged to the benchmark price. The absolute error also decreased as N increased, which provided numerical evidence of convergence.
 
 ## Plots
-![Convergence Plot](figures/Convergence of Binomial Prices to the Black-Scholes Value.png)
+![Convergence Plot](figures/convergence_plot.png)
 
-![Absolute Error Plot](figures/Absolute Error Between Binomial and Black-Scholes Prices.png)
+![Absolute Error Plot](figures/absolute_error_plot.png)
 
 ## Limitations
 This model relies on several simplifying assumptions, including constant volatility, a constant risk-free interest rate, and no transaction costs. Although increasing the number of time steps N improves accuracy, it also increases computational cost. The Black–Scholes model is more efficient for standard European options with a closed-form solution, while binomial trees are especially useful for pricing American options because they can naturally account for early exercise.
