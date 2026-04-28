@@ -59,5 +59,3 @@ p = risk_neutral_probability(r,u,d)
 values = terminal_option_price(k,u,d,n,s0,'P')
 print(values)
 print(binomial_option_price(p,r,values))
-
-#involve the time step
